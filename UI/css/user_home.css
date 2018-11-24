@@ -1,0 +1,4 @@
+header {align-content: center; background-color: burlywood;}
+section {background-color: azure; align-content: center;}
+body {background-color: darkgray}
+header,section {border-left-style: outset; padding: 10px;}

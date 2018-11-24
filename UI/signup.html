@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ireport | signup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/signup.css" />
+    
+</head>
+<body>
+    <header> 
+        <a src="login.html"><button type="button">BACK</button></a>
+        <h3>Ireporter</h3>
+        
+      
+           
+    </header>
+    <main>
+        <article>
+            <h1><strong>Sign up</strong> </h1>
+            <section>
+                
+                <form method="post" action="">
+                  
+                    <label> User
+                       <input type="radio" value="1" name="person"></label>
+                   
+                    
+                     <label> Admin
+                       <input type="radio" value="2" name="person"></label>
+                    <br><br>
+                    <label>First Name
+                        <input type="text" placeholder="First Name" required>
+                    </label><br><br>
+                     <label>Last Name
+                        <input type="text" placeholder="Last Name" pattern="3,13" required>
+                    </label><br><br>
+                     <label>User name
+                        <input type="text" placeholder="Desired name" pattern="3,13"  required>
+                    </label><br><br>
+                     <label>Email
+                        <input type="email" placeholder="kalungi.conrad@gmail.com"  required>
+                    </label><br><br>
+                     <label>Phone NO.
+                        <input type="text" placeholder="+256701504472" pattern="13" required>
+                    </label><br><br>
+                     <label>Password
+                        <input type="text" placeholder="*****" pattern="8,14" required>
+                    </label><br><br>
+                     <label>Comfirm Password
+                        <input type="text" placeholder="re-enter pwd" pattern="8,14" required>
+                    </label><br><br>
+                
+                    
+                </form>
+               
+            </section>
+            <section>
+                <button type="submit">Submit</button>
+                <button type="reset">reset</button>
+                        
+            </section>
+           
+        </article>
+    </main>
+</body>
+
+</html>
