@@ -1,0 +1,49 @@
+@charset "utf-8";
+article {
+    width: 65%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+header {
+    text-align: center; 
+    background-color: burlywood; 
+margin-bottom: 10px;
+}
+h1 {
+    letter-spacing: 30px
+}
+
+section {background-color: #cccccc; align-content: center;}
+body {background-color: #808080;
+    
+}
+header,section {border-style:outset; padding: 10px;}
+.upper {
+    text-align: center;
+    margin: 10px
+}
+.lower {
+    text-align: center;
+    margin: 10px;
+}
+.bottom {
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.input
+aside {
+    
+    display: inline-block;
+    padding: 2px;
+    width: 30%;
+    box-sizing: border-box;
+        background-color: #f2f2f2;
+    float: right;
+    height: 400px;
+    position: relative;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin issues|iReporter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/admin_issues.css" />
+    
+</head>
+<body>
+    <header> 
+        <h2> interventions and red flags</h2>
+           
+    </header>
+    <main>
+        <article>
+            <h1></h1>
+            <section>
+                <form method="get" action="">
+                       <label><p style="di">Intervention</p>
+                            <input checked type="radio" value="3" name="issue" >
+                        </label>
+                         <label style="padding: 4px">redflag
+                            <input type="radio" value="4" name="issue">
+                        </label>
+                    <br><br>
+                        <label><p>Title</p>
+                            <textarea rows="4" cols="20">type here</textarea>
+                        </label>
+                       <br><br><br>
+                        <label> <p>Give description</p>
+                            <textarea rows="10" cols="30">type here</textarea>
+
+                        </label><br><br><br>
+                       
+                </form>
+            </section>
+           
+          
+        </article>
+         <aside>
+             <fieldset>
+                 <legend> <h2>status</h2></legend>
+               <form method="post">
+                   <label>Under investigation
+                      <input type="radio" value="5" name="status">
+                    </label>
+                   <br><br>
+                   <label class="red">rejected
+                      <input type="radio" value="6" name="status">
+                    </label>
+                   <br><br>
+                   <label class="green">resolved
+                      <input type="radio" value="7" name="status">
+                    </label>
+                   
+                   
+              </form>
+                </fieldset>
+         </aside>
+    </main>
+</body>
+
+</html>

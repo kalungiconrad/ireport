@@ -1,0 +1,53 @@
+@charset "utf-8";
+article {
+    width: 70%;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+header {
+    text-align: center; 
+    background-color: burlywood; 
+margin-bottom: 10px;
+}
+h1 {
+    letter-spacing: 30px
+}
+
+section {background-color: #cccccc; align-content: center;}
+body {background-color: #808080;
+    
+}
+header,section {border-style:outset; padding: 10px;}
+.upper {
+    text-align: center;
+    margin: 10px
+}
+.lower {
+    text-align: center;
+    margin: 10px;
+}
+.bottom {
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.bottom .p {
+    
+    text-align: center;
+    
+    
+}
+.bottom .pp {
+    display:inline;
+}
+.bottom a {
+    border-style: solid;
+    padding: 2px;
+    border-radius: 8px;
+    background-color: #006600;
+    color: #ffff;
+    border-color: #006600;
+}
